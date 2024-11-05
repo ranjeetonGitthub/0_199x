@@ -1,0 +1,130 @@
+
+    /* Add a black background color to the top navigation */
+.topnav {
+  background-color: rgb(43, 46, 51);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  margin-top: 30px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  /* background-color: #e4eeea;*/
+  color: white;
+}
+
+body {
+  background-color: rgb(43, 46, 51);
+}
+
+/* center  the navbar */
+
+.topnav {
+  display: flex;
+  justify-content: center; /* Centers the content horizontally */
+  background-color:  rgb(43, 46, 51);
+  padding: 10px;
+  
+}
+
+/* Css for search button*/
+
+
+.search-container {
+  position: relative;
+  width: 300px;
+  display: flex;
+  justify-content: end;/* Centers the content hoizontally */
+
+  margin-top: 30px;
+ 
+
+
+  
+}
+
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 44px;
+   
+}
+
+.search-button {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: none;
+  cursor: pointer;
+ 
+}
+
+.search-icon {
+  width: 20px;
+  height: 20px;
+}
+
+/* css for intro class*/
+
+    .intro {
+            background-color:#ecf6f7;
+            padding: 20px;
+            padding-bottom: 20px;
+            border-radius: 8px;
+            margin-right: 1000px;
+            margin-left: 200px;
+            margin-top: 200px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .intro h1 {
+            color: #37d5ea;
+        }
+        .intro p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+        .intro-xl {
+          color: #16808e;
+        }
+
+        /* About Section Css*/
+
+    .About h1 {
+     
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  
+  margin-top: 30px;
+  text-decoration: solid;
+  font-size: 17px;
+    }
+
+    .About p {
+
+       color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  
+  margin-top: 30px;
+  text-decoration: solid;
+  font-size: 17px;
+    }
